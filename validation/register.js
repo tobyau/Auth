@@ -16,8 +16,10 @@ module.exports = function validateRegisterInput(data) {
   }
 
   // email check
-  if(Validator.isEmpty(data.email)) {
-    errors.email = "Email is required";
+  if (Validator.isEmpty(data.email)) {
+    errors.email = "Email field is required";
+  } else if (!Validator.isEmail(data.email)) {
+    errors.email = "Email is invalid";
   }
 
   // password check
@@ -38,7 +40,7 @@ module.exports = function validateRegisterInput(data) {
   }
 
   return {
-    // isValid boolean checks if there are any errors 
+    // isValid boolean checks if there are any errors
     errors, isValid: isEmpty(errors)
   };
 };
