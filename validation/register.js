@@ -38,6 +38,7 @@ module.exports = function validateRegisterInput(data) {
   }
 
   return {
+    // isValid boolean checks if there are any errors 
     errors, isValid: isEmpty(errors)
   };
 };
