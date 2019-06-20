@@ -1,5 +1,5 @@
 # MERN Authentication
 
 ### Technologies
-* **Node** and **Express** for backend
-* **MongoDB Atlas** for the cloud database 
+* [Node](https://nodejs.org/en/docs/) and [Express](https://expressjs.com/) for backend
+* [MongoDB Atlas](https://www.mongodb.com/cloud/atlas) for the cloud database 
