@@ -1,5 +1,9 @@
 # MERN Authentication
 
+This is a minimal Full-Stack MERN authentication app using passport and JSON Web Tokens.
+
 ### Technologies
-* [Node](https://nodejs.org/en/docs/) and [Express](https://expressjs.com/) for backend
-* [MongoDB Atlas](https://www.mongodb.com/cloud/atlas) for the cloud database 
+* [React](https://reactjs.org/) for the Front-End
+* [Redux](https://redux.js.org/) for global state management between React components
+* [Node](https://nodejs.org/en/docs/) and [Express](https://expressjs.com/) for Back-End
+* [MongoDB Atlas](https://www.mongodb.com/cloud/atlas) for the cloud database
