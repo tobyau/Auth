@@ -1,6 +1,6 @@
 # MERN Authentication
 
-This is a minimal Full-Stack MERN authentication app using passport and JSON Web Tokens.
+This is a minimal Full-Stack MERN authentication app (and template for future use) using passport and JSON Web Tokens.
 
 ### Technologies
 * [React](https://reactjs.org/) for the Front-End
